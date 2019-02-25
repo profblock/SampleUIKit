@@ -12,6 +12,7 @@
 		872F38D82224560100BADA01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 872F38D62224560100BADA01 /* Main.storyboard */; };
 		872F38DA2224560200BADA01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 872F38D92224560200BADA01 /* Assets.xcassets */; };
 		872F38DD2224560200BADA01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 872F38DB2224560200BADA01 /* LaunchScreen.storyboard */; };
+		872F38E522245C6300BADA01 /* GobldyGookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872F38E422245C6300BADA01 /* GobldyGookViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		872F38D92224560200BADA01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		872F38DC2224560200BADA01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		872F38DE2224560200BADA01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		872F38E422245C6300BADA01 /* GobldyGookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GobldyGookViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				872F38D22224560100BADA01 /* AppDelegate.swift */,
 				872F38D42224560100BADA01 /* ViewController.swift */,
 				872F38D62224560100BADA01 /* Main.storyboard */,
+				872F38E422245C6300BADA01 /* GobldyGookViewController.swift */,
 				872F38D92224560200BADA01 /* Assets.xcassets */,
 				872F38DB2224560200BADA01 /* LaunchScreen.storyboard */,
 				872F38DE2224560200BADA01 /* Info.plist */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				872F38D52224560100BADA01 /* ViewController.swift in Sources */,
+				872F38E522245C6300BADA01 /* GobldyGookViewController.swift in Sources */,
 				872F38D32224560100BADA01 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XKTC4NP24M;
 				INFOPLIST_FILE = SampleUIKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XKTC4NP24M;
 				INFOPLIST_FILE = SampleUIKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
